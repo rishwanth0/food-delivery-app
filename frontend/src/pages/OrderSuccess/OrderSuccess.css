@@ -1,0 +1,29 @@
+.order-success-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
+  padding: 2rem;
+  text-align: center;
+}
+
+.order-success-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #16a34a; /* Tailwind's green-600 */
+  margin-bottom: 1rem;
+}
+
+.order-success-message {
+  font-size: 1.125rem;
+  color: #4b5563; /* Tailwind's gray-600 */
+}
+
+.order-success-link {
+  margin-top: 1rem;
+  display: inline-block;
+  color: #2563eb;
+  text-decoration: underline;
+  font-weight: 500;
+}
